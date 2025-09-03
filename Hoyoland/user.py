@@ -45,7 +45,7 @@ if __name__ == '__main__':
         id = market_date_list[market_date_idx] + str(count).zfill(4)
         user_info = set_user_info(id)
         insert_query = sql_query.make_insert_query(settings.USER_TABLE, user_info)
-        print(insert_query)
+        # print(insert_query)
 
         user_info_cursor.execute(insert_query)
 
