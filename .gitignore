@@ -5,4 +5,5 @@ venv
 
 *.iml
 *.pyc
+.DS_Store
 
