@@ -29,7 +29,7 @@ def make_select_query(target_date):
     return 'SELECT ' \
            '    id, user_id  ' \
            'FROM ' \
-           '    user_live ' \
+           '    user ' \
            'WHERE ' \
            '    role = "buyer" AND id like "%s" order by id;' \
         % (target_date)
