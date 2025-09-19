@@ -15,7 +15,7 @@ def chunks(lst, n):
 
 if __name__ == '__main__':
 
-    for idx in range(0,5):
+    for idx in range(0,7):
         target_date = settings.MARKET_DATE_LIST[idx]
         target_count = settings.MARKET_CLIENT_LIST[idx]
         target_dir = settings.QR_CODE_DIR + target_date + '/'

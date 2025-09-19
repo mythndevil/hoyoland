@@ -91,7 +91,7 @@ if __name__ == '__main__':
 
     date_list = settings.MARKET_DATE_LIST
 
-    for idx in range(0, 5):
+    for idx in range(0, 7):
         target_date = date_list[idx] + '%'
 
         query = sql_query.make_select_query(target_date)
