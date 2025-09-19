@@ -106,3 +106,5 @@ if __name__ == '__main__':
 
             generate_qrcode_option(record_id, url)
 
+    user_info_cursor.close()
+
